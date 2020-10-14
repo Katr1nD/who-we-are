@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .wrapper {
     background: repeating-linear-gradient(to right, rgba(217, 54, 0, 0.1), rgba(217, 54, 0, 0.1) 70px, transparent 70px, transparent 100px);
     width: 1170px;
-    height: 736px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', serif;
+    font-size: 34px;
+    letter-spacing: 4px;
+    color: #3c3c3c;
+    text-transform: uppercase;
 }
