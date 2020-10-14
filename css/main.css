@@ -9,18 +9,44 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
     background: repeating-linear-gradient(to right, rgba(217, 54, 0, 0.1), rgba(217, 54, 0, 0.1) 70px, transparent 70px, transparent 100px);
+    font-family: 'Lato', serif;
+    color: #3c3c3c;
     width: 1170px;
     height: 100%;
-    margin: 0 auto;
 }
 
 .title h1 {
     margin: 0;
     text-align: center;
-    font-family: 'Lato', serif;
     font-size: 34px;
     letter-spacing: 4px;
-    color: #3c3c3c;
     text-transform: uppercase;
+}
+
+.line {
+    margin: 0 auto;
+    border: 2px solid #dddbdb;
+    width: 45px;
+    opacity: 0.5;
+}
+
+.title p {
+    width: 561px;
+    line-height: 24px;
+}
+
+.personnel {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.employees {
+    width: 270px;
+    height: 268px;
+    background-color: #dadada;
+    /* opacity: 0.5; */
 }
