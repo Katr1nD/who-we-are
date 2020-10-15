@@ -11,7 +11,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0 auto;
     background: repeating-linear-gradient(to right, rgba(217, 54, 0, 0.1), rgba(217, 54, 0, 0.1) 70px, transparent 70px, transparent 100px);
     font-family: 'Lato', serif;
@@ -36,7 +36,7 @@ body {
 }
 
 .title p {
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
     width: 561px;
     line-height: 24px;
@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 0;
+    margin-top: 40px;
 }
 
 .employees {
@@ -67,22 +67,24 @@ body {
 }
 
 .fab {
-    text-align: center;
     background-color: rgba(255, 255, 255, 0.3);
     color: #ffffff;
     height: 42px;
     width: 42px;
     font-size: 24px;
     z-index: 5;
+    cursor: pointer;
 }
 
 .employees:hover img {
     visibility: hidden;
-    transition: all 0.5s;
 }
 
 .employees:hover .social-media {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .full-name {
